@@ -14,6 +14,7 @@
             <th>Name</th>
             <th>Email</th>
             <th>Action</th>
+            <th>Password</th>
         </tr>
 
         <?php foreach ($users as $user) : ?>
@@ -21,6 +22,7 @@
             <td><?= $user['id_user']?></td>
             <td><?= $user['Hoten']?></td>
             <td><?= $user['Email']?></td>
+            
             <td>
                 <a href="<?= BASE_URL . '?act=user-detail&id=' . $user['id_user'] ?>">Xem chi tiet</a>
             </td>
