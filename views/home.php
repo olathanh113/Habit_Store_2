@@ -14,8 +14,7 @@
             <th>Name</th>
             <th>Email</th>
             <th>Action</th>
-            <th>Password</th>
-            <th>San pham</th>
+            
         </tr>
 
         <?php foreach ($users as $user) : ?>
